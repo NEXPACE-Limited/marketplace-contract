@@ -14,7 +14,7 @@
   "license": "ISC",
   "peerDependencies": {
     "@openzeppelin/contracts": "=4.8.1",
-    "@projecta/util-contracts": "git+ssh://git@github.com:NEXPACE-ADMIN/util-contracts.git",
-    "@projecta/nexpace-contracts": "git+git@github.com:NEXPACE-ADMIN/nexpace-contracts.git"
+    "@projecta/util-contracts": "git+ssh://git@github.com:NEXPACE-ADMIN/util-contracts.git#v1.0.0",
+    "@projecta/nexpace-contracts": "git+git@github.com:NEXPACE-ADMIN/nexpace-contracts.git#v1.0.0"
   }
 }
