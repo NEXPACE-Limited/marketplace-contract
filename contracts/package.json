@@ -1,0 +1,20 @@
+{
+  "name": "@projecta/marketplace-contracts",
+  "version": "0.7.11",
+  "files": [
+    "**/*.sol",
+    "!/mock/internal/**",
+    "artifacts",
+    "!artifacts/contracts/mock/internal/**"
+  ],
+  "scripts": {
+    "preversion": "[ -n \"$BUMP_FROM_PROJECT_ROOT_DIRECTORY\" ]"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@openzeppelin/contracts": "=4.8.1",
+    "@projecta/util-contracts": "git+ssh://git@github.com:NEXPACE-ADMIN/util-contracts.git",
+    "@projecta/nexpace-contracts": "git+git@github.com:NEXPACE-ADMIN/nexpace-contracts.git"
+  }
+}
