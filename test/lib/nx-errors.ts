@@ -47,6 +47,7 @@ export default {
     orderAlreadyUsed: /^Exchange721\/orderAlreadyUsed:/,
     soldOut: /^Exchange721\/soldOut:/,
     transferNoFund: /^Exchange721\/transferNoFund:/,
+    invalidSignature: /^Exchange721\/invalidSignature:/,
   },
   Exchange1155: {
     cancelConflict: /^Exchange1155\/cancelConflict:/,
@@ -55,6 +56,7 @@ export default {
     sellerOrderNotListed: /^Exchange1155\/sellerOrderNotListed:/,
     sellerOrderExpired: /^Exchange1155\/sellerOrderExpired:/,
     orderAlreadyUsed: /^Exchange1155\/orderAlreadyUsed:/,
+    invalidSignature: /^Exchange1155\/invalidSignature:/,
   },
   OrderMatch: {
     cancelConflict: /^OrderMatch\/cancelConflict:/,
