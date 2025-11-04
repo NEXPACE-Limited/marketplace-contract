@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import { IEquip } from "@projecta/nexpace-contracts/contracts/Interfaces/IEquip.sol";
-import { Exchange } from "./Exchange.sol";
+import { Exchange } from "./MarketplaceV1/Exchange.sol";
 
 abstract contract OrderMatch is Exchange {
     using SafeERC20 for IERC20;
